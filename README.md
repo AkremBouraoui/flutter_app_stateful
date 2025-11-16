@@ -88,7 +88,4 @@ https://github.com/AkremBouraoui/flutter_app_stateful
 
 ## ✍️ Auteur
 
-Akrem Bouraoui - Collège Boréal - 300105527*
-
----
-
+Akrem Bouraoui - Collège Boréal - 300105527
