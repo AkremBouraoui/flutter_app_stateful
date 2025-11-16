@@ -35,14 +35,12 @@ class _MyWidgetState extends State<MyWidget> {
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  ElevatedButton(onPressed :() { setState(() { compteur--; });},
-              child: Text("-")),
-                  SizedBox(width: 10),
-                  ElevatedButton(onPressed: () { setState(() { compteur = 0; });},
-              child: Text("Réinitialiser")),
-                  SizedBox(width: 10),
-                  ElevatedButton(onPressed: () { setState(() { compteur++; });},
-              child: Text("+")),
+                  IconButton(onPressed :() { setState(() { compteur--; }); }, icon:
+                  Icon(Icons.remove)),
+                  IconButton(onPressed: () { setState(() { compteur = 0; }); }, icon:
+                  Icon(Icons.refresh)), 
+                  IconButton(onPressed: () { setState(() { compteur++; }); }, icon:
+                  Icon(Icons.add)),
                 ],
               )
             ],
